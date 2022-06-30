@@ -1,0 +1,17 @@
+<script>
+
+var strwsInfo = localStorage.getItem("myinfo")
+
+console.log(typeof strwsInfo)
+console.log(strwsInfo)
+
+var myData = JSON.parse(strwsInfo);
+
+//console.log("hello", myData.fName, myData.lName)
+
+
+for(p in myData){
+console.log(myData[p])
+}
+
+</script>

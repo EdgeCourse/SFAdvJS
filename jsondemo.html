@@ -1,0 +1,19 @@
+<script>
+
+var person = {
+fName: "John",
+"mid-init": "Q",
+lName: "Doe",
+"class": "JavaScript"
+}
+
+console.log("what type is person? ", typeof person)
+console.log("person object: ", person)
+
+var strPerson = JSON.stringify(person);
+
+console.log("string verson: ", strPerson)
+
+localStorage.setItem("myinfo", strPerson)
+
+</script>
